@@ -4,63 +4,63 @@
 
 Langkah 1: Buat Project Baru
 
-![project baru dengan struktur model - view](/images/image.png)
+![project baru dengan struktur model - view](images/image.png)
 
 Langkah 2: Membuat model task.dart
 
-![task.dart](/images/image-1.png)
+![task.dart](images/image-1.png)
 
 Langkah 3: Buat file plan.dart
 
-![plan.dart](/images/image-2.png)
+![plan.dart](images/image-2.png)
 
 Langkah 4: Buat file data_layer.dart
 
-![data_layer.dart](/images/image-3.png)
+![data_layer.dart](images/image-3.png)
 
 Langkah 5: Pindah ke file main.dart
 
-![main.dart](/images/image-4.png)
+![main.dart](images/image-4.png)
 
 kita perlu menambahkan useMaterial3:false agar primarySwatch bisa berfungsi dengan baik
 
-![menambahkan useMaterial:false](/images/image-13.png)
+![menambahkan useMaterial:false](images/image-13.png)
 
 Langkah 6: buat plan_screen.dart
 
-![plan_screen.dart](/images/image-5.png)
+![plan_screen.dart](images/image-5.png)
 
 Langkah 7: buat method _buildAddTaskButton()
 
-![method _buildAddTaskButton](/images/image-7.png)
+![method _buildAddTaskButton](images/image-7.png)
 
 Langkah 8: buat widget _buildList()
 
-![widget _buildList](/images/image-6.png)
+![widget _buildList](images/image-6.png)
 
 Langkah 9: buat widget _buildTaskTile
 
-![widget _buildTaskTile](/images/image-8.png)
+![widget _buildTaskTile](images/image-8.png)
 
 Langkah 10: Tambah Scroll Controller
 
-![Scroll Controller](/images/image-9.png)
+![Scroll Controller](images/image-9.png)
 
 Langkah 11: Tambah Scroll Listener
 
-![Scroll Listener](/images/image-10.png)
+![Scroll Listener](images/image-10.png)
 
 Langkah 12: Tambah controller dan keyboard behavior
 
-![controller dan keyboard behavior](/images/image-11.png)
+![controller dan keyboard behavior](images/image-11.png)
 
 Langkah 13: Terakhir, tambah method dispose()
 
-![alt text](/images/image-12.png)
+![alt text](images/image-12.png)
 
 Langkah 14: Hasil
 
-![hasil](/images/hasil.jpg)
+![hasil](images/hasil.jpg)
 
 ___
 
@@ -79,7 +79,7 @@ Variabel tersebut digunakan untuk menyimpan dan mengelola data inputan (plan) ya
 
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 
-![Langkah 9](</images/Langkah 9.gif>)
+![Langkah 9](<images/Langkah 9.gif>)
 
 Fungsi _buildTaskTile() akan membuat satu baris daftar tugas yang bisa diedit teksnya dan bisa ditandai selesai, lalu jika ada perubahan, maka langsung diperbarui ke dalam plan dan tampilan layar.
 
@@ -99,41 +99,41 @@ ___
 
 Langkah 1: Buat file plan_provider.dart
 
-![plan_provider.dart](/images/image-14.png)
+![plan_provider.dart](images/image-14.png)
 
 Langkah 2: Edit main.dart
 
-![main.dart](/images/image-15.png)
+![main.dart](images/image-15.png)
 
 Langkah 3: Tambah method pada model plan.dart
 
-![plan.dart](/images/image-28.png)
+![plan.dart](images/image-28.png)
 
 Langkah 4: Pindah ke PlanScreen
 
 Langkah 5: Edit method _buildAddTaskButton
 
-![_buildAddTaskButton](/images/image-17.png)
+![_buildAddTaskButton](images/image-17.png)
 
 Langkah 6: Edit method _buildTaskTile
 
-![_buildTaskTile](/images/image-18.png)
+![_buildTaskTile](images/image-18.png)
 
 Langkah 7: Edit _buildList
 
-![_buildList](/images/image-19.png)
+![_buildList](images/image-19.png)
 
 Langkah 8: Tetap di class PlanScreen
 
-![menambahkan footer](/images/image-20.png)
+![menambahkan footer](images/image-20.png)
 
 Langkah 9: Tambah widget SafeArea
 
-![widget safe area](/images/image-16.png)
+![widget safe area](images/image-16.png)
 
 Hasil: 
 
-![hasil](/images/image-22.jpg)
+![hasil](images/image-22.jpg)
 
 
 ## Tugas Praktikum 2:
@@ -152,7 +152,7 @@ Method tersebut akan menghitung jumlah tasks yang sudah selesai dan menghasilkan
 
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 
-![langkah 9](/images/Record_2025-11-17-13-21-10.gif)
+![langkah 9](images/Record_2025-11-17-13-21-10.gif)
 
 5. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke dosen yang telah disepakati !
 
@@ -161,63 +161,63 @@ Method tersebut akan menghitung jumlah tasks yang sudah selesai dan menghasilkan
 
 Langkah 1: Edit PlanProvider
 
-![langkah 1](/images/image-22.png)
+![langkah 1](images/image-22.png)
 
 Langkah 2: Edit main.dart
 
-![main.dart](/images/image-29.png)
+![main.dart](images/image-29.png)
 
 Langkah 3: Edit plan_screen.dart
 
-![langkah 3](/images/image-25.png)
+![langkah 3](images/image-25.png)
 
 Langkah 4: Error
 
-![langkah 4](/images/image-26.png)
+![langkah 4](images/image-26.png)
 
 Langkah 5: Tambah getter Plan
 
-![langkah 5](/images/image-27.png)
+![langkah 5](images/image-27.png)
 
 Langkah 6: Method initState()
 
-![langkah 6](/images/image-24.png)
+![langkah 6](images/image-24.png)
 
 Langkah 7: Widget build
 
-![widget build](/images/image-30.png)
+![widget build](images/image-30.png)
 
 Langkah 8: Edit _buildTaskTile 
 
-![buildTaskTile](/images/image-31.png)
+![buildTaskTile](images/image-31.png)
 
 Langkah 9: Buat screen baru 
 
-![langkah 9](/images/image-16.png)
+![langkah 9](images/image-16.png)
 
 Langkah 10: Pindah ke class _PlanCreatorScreenState 
 
-![planCreatorScreenState](/images/image-32.png)
+![planCreatorScreenState](images/image-32.png)
 
 Langkah  11: Pindah ke method build 
 
-![method build](/images/image-33.png)
+![method build](images/image-33.png)
 
 Langkah 12: Buat widget _buildListCreator 
 
-![buildListCreator](/images/image-34.png)
+![buildListCreator](images/image-34.png)
 
 Langkah 13: Buat  void addPlan() 
 
-![addPlan()](/images/image-35.png)
+![addPlan()](images/image-35.png)
 
 Langkah 14: Buat widget _buildMasterPlans()
 
-![BuildMasterPlane](/images/image-36.png)
+![BuildMasterPlane](images/image-36.png)
 
 Hasil:
 
-![Hasil](</images/Hasil Praktikum 3.gif>)
+![Hasil](<images/Hasil Praktikum 3.gif>)
 
 
 ## Tugas Praktikum 3 :
@@ -229,7 +229,7 @@ Hasil:
 
 2. Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
 
-![soal](/images/image-37.png)
+![soal](images/image-37.png)
 
 Gambar tersebut menjelaskan bahwa di dalam aplikasi plan_master terdapat 2 struktur widget tree pada saat sebelum dan sesudah proses Navigator.push(). 
 
@@ -242,7 +242,7 @@ Diagram tersebut menunjukkan bahwa setelah berpindah halaman, tampilan UI akan b
 
 3. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 
-![Hasil](</images/Hasil Praktikum 3.gif>)
+![Hasil](<images/Hasil Praktikum 3.gif>)
 
 Aplikasi sederhana yang telah saya buat adalah aplikasi yang membantu pengguna dalam membuat daftar rencana serta dapat melihat progresnya.
 
